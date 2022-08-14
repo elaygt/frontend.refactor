@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import AtomButton from "../atoms/AtomButton";
-import { TASK_STATUS } from "../constant/taskStatuses";
+import AtomButton from "./atoms/AtomButton";
+import { TASK_STATUS } from "./constant/taskStatuses";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { AtomInputField } from "../atoms/AtomInputField";
-import AtomSelection from "../atoms/AtomSelection";
+import { AtomInputField } from "./atoms/AtomInputField";
+import AtomSelection from "./atoms/AtomSelection";
 import TaskService from "../../services/TaskService";
 
 function Create( {handleClose}) { 

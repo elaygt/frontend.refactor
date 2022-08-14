@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import { AtomInputField } from "../atoms/AtomInputField";
-import AtomButton from "../atoms/AtomButton";
+import { AtomInputField } from "./atoms/AtomInputField";
+import AtomButton from "./atoms/AtomButton";
 import { tasks } from "../components/tasks";
-import { TASK_STATUS } from "../constant/taskStatuses";
-import AtomSelection from "../atoms/AtomSelection";
+import { TASK_STATUS } from "./constant/taskStatuses";
+import AtomSelection from "./atoms/AtomSelection";
 import TaskService from "../../services/TaskService";
 
 function Edit({dataId , handleClose}) {
